@@ -19,3 +19,6 @@ console.log(dice);
 document.querySelector("#current-" + activePlayer).textContent = dice;
 // document.querySelector("#current-" + activePlayer).innerHTML =
 //   "<em>" + dice + "</em>";
+
+const x = document.querySelector("#score-0").textContent;
+console.log(x);
